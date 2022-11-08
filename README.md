@@ -17,7 +17,7 @@ However, visualizing different patterns by rotating LEDs currently requires prog
 
 ## Source Code Repo
 
-You can find all our source code ![here](https://github.com/mahaoran1997/PovLib).
+You can find all our source code [here](https://github.com/mahaoran1997/PovLib).
 
 ## The license
 

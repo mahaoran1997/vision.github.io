@@ -2,6 +2,6 @@
 sort: 1
 ---
 
-# Test Documentation
+# POVLib Documentation
 
 {% include list.liquid all=true %}

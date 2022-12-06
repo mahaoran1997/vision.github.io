@@ -7,7 +7,7 @@ Haoran Ma, Yu Bai
 
 ## Introduction
 
-POVLib is a persistent vision display library 
+POVLib is a lightweight, customizablem, and easy-to-use persistent vision display library. Programmers can easily integrate this library to their code and create beautiful patterns they want. POVLib also includes a simple html-based web server library to help programmers create a webpage using a few lines of code to interact with the real users of the POV display.
 
 ## Motivation
 
@@ -27,6 +27,7 @@ However, visualizing different patterns by rotating LEDs currently requires prog
 ## Source Code Repo
 
 You can find all our source code and 3D printer models [here](https://github.com/mahaoran1997/PovLib).
+A step-by-step guide to build a POV display can be found in [section 2](https://www.haoranma.info/vision.github.io/test/guide.html) of this documentation.
 
 ## The license
 

@@ -11,7 +11,3 @@ sort: 3
 
 ### Integration to your system
 
-
-## Run
-
-## Results

@@ -2,7 +2,8 @@
 sort: 2
 ---
 
-# Usage
+# Step-by-step Guide
+
 
 ## Hardware Setup
 ### Required Components:
@@ -15,14 +16,12 @@ sort: 2
 * 330<span>&#8486;</span> Resistor
 
 
-## Installation
+## Software Code
+
+## Visual Effects
 
 
-### Download
 
-### Integration to your system
+> Test
 
 
-## Run
-
-## Results

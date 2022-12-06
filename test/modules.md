@@ -4,14 +4,7 @@ sort: 3
 
 # Modules
 
-## Circle
+## HTML Module
 
-## Square
 
-## Attributes
-
-## Move
-
-## Color
-
-## Size
+## POV Module

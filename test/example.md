@@ -4,7 +4,9 @@ sort: 4
 
 # Example
 
-## Code
+## Hardware Setup
+
+## Software Code
 
 ## Visual Effects
 

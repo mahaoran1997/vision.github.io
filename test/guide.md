@@ -32,7 +32,82 @@ sort: 1
 
 ## 2 Software Code
 
+Here we show how to use our POVLib to easily build a POV Display and a web server.
 
+### 2.1 Web Server
+
+To build a simple web server, we need to firstly import the html module of our POVLib. And then declare an object with class `TemplateHtml`. Inside the setup function, we initialize the TemplateHtml object with parameters specified by us.
+
+```C++
+#include <html.h>
+
+TemplateHtml our_html;
+void setup() {    
+  Serial.begin(115200);
+  // .....
+  TemplateHtml::initialize(5, texts, wifi_ssid, wifi_password, &current_pattern, text_s);
+}
+```
+In the code above, we input 6 parameters into the initialize function. The first parameter is how many patterns we have. The second parameter is a string array. It contains the pattern names. The third and fourth parameters are the ssid and password of wifi server specified by users. The fifth parameter is an integer pointer, it is used to transfer the information of pattern selected by users from html module to our code. The last parameter is a char array and is also used to transfer parameter information from html module to our code (e.g. the input box shown in section 3).
+
+Then at the start of the loop function, we need to call `TemplateHtml::handle_client()`. 
+```C++
+void loop() {
+  TemplateHtml::handle_client();
+  // Code to show patterns ...
+}
+```
+
+
+### 2.2 Create Patterns
+
+To easily create our patterns using POVLib, we need to firstly import the pov module of our POVLib. And then create an object with class `POVLib`. Inside the setup function, we call the constructor of POVLib.
+```C++
+#include <pov.h>
+
+POVLib* pov;
+void setup() {    
+  Serial.begin(115200);
+  // .....
+  pov = new POVLib(LED_PIN, NUM_LEDS, BRIGHTNESS, SPEED, NUM_INTERVALS, LED_TYPE, COLOR_ORDER);
+  pov->reset();
+}
+```
+In the code above, we input 7 parameters into the constructor of POVLib. The first parameter is the pin number of LED. The second parameter is the number of leds we have on the stripe. The third specifies the brightness of LED and the fourth parameter specifies the speed of the motor. The fifth parameter is how many intervals we want to split for a single circle. The last two parameters are the type of our leds and the color order.
+
+So basically the POVLib will create a polar grid graph. There are NUM_LEDS*NUM_INTERVALS points in the graph. And we use (Interval ID, LED ID) to identify each point. The `reset` function just resets every point to black. We can use other interfaces to create patterns we want. A complete interface introduction can be found in [section 2](https://www.haoranma.info/vision.github.io/test/modules.html). Here we show an example: how we created our shape pattern.
+
+```C++
+void loop() {
+  TemplateHtml::handle_client();
+  // ...
+  else if (current_pattern == 4) {
+    show_shape();
+  }
+  // Other patterns ...
+}
+
+unsigned int povcolors[4] = {CRGB::Red, CRGB::Blue, CRGB::Green, CRGB::Yellow};
+void show_shape() {
+  EVERY_N_SECONDS(1) {
+    for (int i = 0; i < NUM_INTERVALS; i += 3) {
+      for (int j = 0; j < 3; j ++) {
+        pov->draw_curve(i, (i + 3) % NUM_INTERVALS, j, povcolors[i/3]);
+      }
+      pov->draw_curve((i + 1) % NUM_INTERVALS, (i + 4)%NUM_INTERVALS, 3, povcolors[i/3]);
+      pov->draw_curve((i + 2) % NUM_INTERVALS, (i + 5)%NUM_INTERVALS, 4, povcolors[i/3]);
+      pov->draw_curve((i + 2) % NUM_INTERVALS, (i + 5)%NUM_INTERVALS, 5, povcolors[i/3]);
+      pov->draw_curve((i + 2) % NUM_INTERVALS, (i + 5)%NUM_INTERVALS, 6, povcolors[i/3]);
+      pov->draw_curve((i + 1) % NUM_INTERVALS, (i + 4)%NUM_INTERVALS, 7, povcolors[i/3]);
+      for (int j = 8; j < 11; j ++) {
+        pov->draw_curve(i, (i + 3) % NUM_INTERVALS, j, povcolors[i/3]);
+      }
+    }
+  }
+  pov->run_loop_body();
+}
+```
+In the loop function, we check the value of `current_pattern`. If it is 4, then we call `show_shape` to show the pattern we create. In `show_shape`, we firstly draw the pattern. The `draw_curve` function takes four input parametes. The first two specifies the start and end interval IDs of this curve and the third parameter specifies the LED ID of the curve. The last one gives the color of this curve. Actually We can also draw dots and lines using other interfaces. After creating the pattern, we need to call the `run_loop_body` function in POVLib to let our hardwares show the pattern.
 
 ## 3 Visual Effects
 

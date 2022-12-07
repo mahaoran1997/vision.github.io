@@ -51,9 +51,9 @@ We built a demo system and created five different patterns using our library to 
 After we activate the first pattern -- color pattern which is the simplest one in this demo. It changes its color every 5 seconds. The visual effects are shown below:
 
 
-<center>Color Pattern 1</center>| <center>Color Pattern 2</center>
-:--- | :---
-![Color Pattern 1](https://www.haoranma.info/vision.github.io/assets/images/pattern1_1.JPG) | ![Color Pattern 2](https://www.haoranma.info/vision.github.io/assets/images/pattern1_2.JPG)
+|<center>Color Pattern 1</center>| <center>Color Pattern 2</center>|
+|--- | ---|
+|![Color Pattern 1](https://www.haoranma.info/vision.github.io/assets/images/pattern1_1.JPG) | ![Color Pattern 2](https://www.haoranma.info/vision.github.io/assets/images/pattern1_2.JPG)|
 
 We used long exposure camera to capture the pattern. Due to the camera sampling frequency is not high enough, though the pattern in the image is missing a corner, it actually fills all round face when we are looking at it through our eyes. This problem also arises in the rest several patterns.
 

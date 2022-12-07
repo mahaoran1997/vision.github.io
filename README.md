@@ -15,19 +15,27 @@ Light effect plays an important role in attracting people’s attention in many 
 
 However, visualizing different patterns by rotating LEDs currently requires programmers to take care of every low-level detail such as timing and synchronization when programming on real hardwares. For example, they need to explicitly control the on and off time for every LED light, and there could be thousands of LED lights on one display. Programs could be extremely long in such cases. POVLib -- a persistent vision display library can help users easily create beautiful patterns with only a few lines of code.
 
-
 ## Related Work
+The paper Persistance of <span class="emphasized"> Vision Control Using Arduino</span> by Robinson, Ghansyam, and Vishwa introduced us a Piranha LED POV project that was controled by an Andrioid device<sup>[1]</sup>. Users could send a message of commend with their device to the microcontroller to change the display pattern. The paper accomplished a new way of interacting with the users by providing a touchscreen<sup>[2]</sup>. The Raspberry Pi took the touchpad as input and tranformed the drawing to the POV display. Debashis also built a POV display using WS2812 Neopixel and ESP8266, and users were able to control the display pattern on any device via Wi-Fi<sup>[3]</sup>. However, the weakness of each approach is noticeable like the obsolete LEDs and the complexity to design display patterns. 
 
-- Paul, Robinson P., et al. "Persistence of Vision control using Arduino." International Journal of Intelligent Systems and Applications (IJISA), IJISA 6.1 (2013).
-- Dhruv, Akshay, et al. "Wireless Remote Controlled POV Display." International Journal of Computer Applications 115.7 (2015).
-- Kolsur, Anoop, Sandeep Awale, and Nagraj Ullagaddi. "POV: Persistence of Vision."
-- Das, Debashis. “How Not to Build a POV Display Using WS2812B Neopixel Leds and ESP8266.” CIRCUIT DIGEST, 21 Apr. 2022, https://circuitdigest.com/microcontroller-projects/build-pov-display-using-ws2812b-neopixel-led-and-esp8266. 
-
+## Novelty & Rationale
+In our approach, we plan to replace the old LEDs with the Neopixel RGBs to provide more colors and to easily adjust the brightness. A new interaction is also accomplished, which let users to DIY the display pattern on their own devices. Moreover, we plan to create a library named POVLib to help users and programmers create remarkable patterns with only a few lines of code.  
 
 ## Source Code Repo
 
 You can find all our source code and 3D printer models [here](https://github.com/mahaoran1997/PovLib).
 A step-by-step guide to build a POV display can be found in [section 2](https://www.haoranma.info/vision.github.io/test/guide.html) of this documentation.
+
+## References
+[1] Paul, Robinson P., et al. "Persistence of Vision control using Arduino." International Journal of Intelligent Systems and Applications (IJISA), IJISA 6.1 (2013).
+
+[2] Patel, Aditya, et al. “Persistence Of Vision Display- A Review.” IOSR Journal of Electrical and Electronics Engineering, vol. 10, no. 4, 2015, pp. 36–40., https://doi.org/10.9790/1676-10433640 . 
+
+[3] Das, Debashis. “How Not to Build a POV Display Using WS2812B Neopixel Leds and ESP8266.” CIRCUIT DIGEST, 21 Apr. 2022, https://circuitdigest.com/microcontroller-projects/build-pov-display-using-ws2812b-neopixel-led-and-esp8266. 
+
+<!-- [2] Dhruv, Akshay, et al. "Wireless Remote Controlled POV Display." International Journal of Computer Applications 115.7 (2015).
+
+[3] Kolsur, Anoop, Sandeep Awale, and Nagraj Ullagaddi. "POV: Persistence of Vision." -->
 
 ## The license
 

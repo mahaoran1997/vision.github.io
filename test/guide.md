@@ -15,7 +15,7 @@ sort: 1
 * 3.7V 400mA Lithium Battery
 * 12V Battery (Power the motor)
 * 330<span>&#8486;</span> Resistor
-* 9cm &#xD7; 10cm PCB Board
+* 18cm &#xD7; 10cm PCB Board
 * 4mm Rigid Flange
 * Screws and Nuts
 

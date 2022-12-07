@@ -22,10 +22,10 @@ sort: 1
 ### 1.2 Circuit Schematics:
 The first scheme is ESP8266 circuit, which powers the WS2812 LEDs and uses WiFi to control and switch the light patterns.
 <img src="https://www.haoranma.info/vision.github.io/assets/images/NodeMCU Circuit_schem.jpg" alt="ESP8266 Circuit Scheme">
-<p>
+
 The following picture is the L298N Motor Driver Scheme, which powers the 12V motor and controls the motor's rotational speed. 
 <img src="https://www.haoranma.info/vision.github.io/assets/images/Motor Circuit_bb.png" alt="L298N Motor Driver Scheme">
-<p>
+
 To power and control the motor speed, we need to use the Pulse Width Modulation (PWM), a way to control analog devices with a digital output. In other words, we can output a modulating signal from a digital device (Arduino Uno) to drive an analog device (motor). After setting up the motor driver circuit, we can simply assign the Arduino output pins, and call `analogWrite`.
 
 <!-- ```C++
@@ -53,12 +53,14 @@ void loop(){
 ``` -->
 
 ### 1.3 3D Printed Models:
-* The following two models are 3D printed to contain all the required components, the original STL files can be found <a href="https://github.com/mahaoran1997/vision.github.io/tree/develop/assets/3D%20Models" target="_blank">here</a>.
+- The following two models are 3D printed to contain all the required components, the original STL files can be found <a href="https://github.com/mahaoran1997/vision.github.io/tree/develop/assets/3D%20Models" target="_blank">here</a>.
 <table>
 <tr><td><center>Model Base</center></td><td> <center>Model Cover</center></td></tr>
 <tr><td>
 <img align="center" src="https://www.haoranma.info/vision.github.io/assets/images/Model Base.png" alt="Model Base"/></td><td> <img align="center" src="https://www.haoranma.info/vision.github.io/assets/images/Model Cover.png" alt="Model Cover"/></td></tr>
 </table>
+
+
 
 ## 2 Software Code
 

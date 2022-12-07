@@ -53,12 +53,14 @@ void loop(){
 ``` -->
 
 ### 1.3 3D Printed Models:
-* The following two models are 3D printed to contain all the required components, the original STL files can be found <a href="https://github.com/mahaoran1997/vision.github.io/tree/develop/assets/3D%20Models" target="_blank">here</a>.*
+- The following two models are 3D printed to contain all the required components, the original STL files can be found <a href="https://github.com/mahaoran1997/vision.github.io/tree/develop/assets/3D%20Models" target="_blank">here</a>.
 <table>
 <tr><td><center>Model Base</center></td><td> <center>Model Cover</center></td></tr>
 <tr><td>
 <img align="center" src="https://www.haoranma.info/vision.github.io/assets/images/Model Base.png" alt="Model Base"/></td><td> <img align="center" src="https://www.haoranma.info/vision.github.io/assets/images/Model Cover.png" alt="Model Cover"/></td></tr>
 </table>
+
+
 
 ## 2 Software Code
 

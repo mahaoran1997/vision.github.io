@@ -53,7 +53,7 @@ After we activate the first pattern -- color pattern which is the simplest one i
 
 <center>Color Pattern 1</center>| <center>Color Pattern 2</center>
 :--- | :---
-![](https://www.haoranma.info/vision.github.io/assets/images/pattern1_1.JPG) | ![](https://www.haoranma.info/vision.github.io/assets/images/pattern1_2.JPG)
+![Color Pattern 1](https://www.haoranma.info/vision.github.io/assets/images/pattern1_1.JPG) | ![Color Pattern 2](https://www.haoranma.info/vision.github.io/assets/images/pattern1_2.JPG)
 
 We used long exposure camera to capture the pattern. Due to the camera sampling frequency is not high enough, though the pattern in the image is missing a corner, it actually fills all round face when we are looking at it through our eyes. This problem also arises in the rest several patterns.
 
@@ -62,8 +62,8 @@ After we activate the second pattern -- clock pattern. It shows the current time
 
 
 <center>Clock Pattern 1</center>| <center>Cclock Pattern 2</center>
-:--- | :---
-![](https://www.haoranma.info/vision.github.io/assets/images/pattern2_1.JPG) | ![](https://www.haoranma.info/vision.github.io/assets/images/pattern2_2.JPG)
+--- | ---
+![Clock Pattern 1](https://www.haoranma.info/vision.github.io/assets/images/pattern2_1.JPG) | ![Clock Pattern 2](https://www.haoranma.info/vision.github.io/assets/images/pattern2_2.JPG)
 
 
 
@@ -73,8 +73,8 @@ After we activate the third pattern -- circle pattern. It shows a circle startin
 
 
 <center>Circle Pattern 1</center>| <center>Circle Pattern 2</center> | <center>Circle Pattern 3</center>
-:--- | :--- | :---
-![](https://www.haoranma.info/vision.github.io/assets/images/pattern3_1.JPG) | ![](https://www.haoranma.info/vision.github.io/assets/images/pattern3_2.JPG) | ![](https://www.haoranma.info/vision.github.io/assets/images/pattern3_3.JPG)
+--- | --- | ---
+![Circle Pattern 1](https://www.haoranma.info/vision.github.io/assets/images/pattern3_1.JPG) | ![Circle Pattern 2](https://www.haoranma.info/vision.github.io/assets/images/pattern3_2.JPG) | ![Circle Pattern 3](https://www.haoranma.info/vision.github.io/assets/images/pattern3_3.JPG)
 
 
 ### 3.4 Shape Pattern
@@ -82,6 +82,6 @@ After we activate the second pattern -- clock pattern. It shows the current time
 
 
 <center>Shape Pattern 1</center>| <center>Shape Pattern 2</center>
-:--- | :---
-![](https://www.haoranma.info/vision.github.io/assets/images/pattern5_1.jpg) | ![](https://www.haoranma.info/vision.github.io/assets/images/pattern5_2.JPG)
+--- | ---
+![Shape Pattern 1](https://www.haoranma.info/vision.github.io/assets/images/pattern5_1.jpg) | ![Shape Pattern 2](https://www.haoranma.info/vision.github.io/assets/images/pattern5_2.JPG)
 

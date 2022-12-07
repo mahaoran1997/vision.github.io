@@ -52,7 +52,8 @@ After we activate the first pattern -- color pattern which is the simplest one i
 
 <table>
 <tr><td><center>Color Pattern 1</center></td><td> <center>Color Pattern 2</center></td></tr>
-<tr><td>![Color Pattern 1](https://www.haoranma.info/vision.github.io/assets/images/pattern1_1.JPG) </td><td> ![Color Pattern 2](https://www.haoranma.info/vision.github.io/assets/images/pattern1_2.JPG)</td></tr>
+<tr><td>
+<img align="center" src="https://www.haoranma.info/vision.github.io/assets/images/pattern1_1.JPG" alt="Color Pattern 1"/></td><td> <img align="center" src="https://www.haoranma.info/vision.github.io/assets/images/pattern1_2.JPG" alt="Color Pattern 2"/></td></tr>
 </table>
 
 We used long exposure camera to capture the pattern. Due to the camera sampling frequency is not high enough, though the pattern in the image is missing a corner, it actually fills all round face when we are looking at it through our eyes. This problem also arises in the rest several patterns.
@@ -61,9 +62,11 @@ We used long exposure camera to capture the pattern. Due to the camera sampling 
 After we activate the second pattern -- clock pattern. It shows the current time (hour and minute). The visual effects are shown below:
 
 
-<center>Clock Pattern 1</center>| <center>Cclock Pattern 2</center>
---- | ---
-![Clock Pattern 1](https://www.haoranma.info/vision.github.io/assets/images/pattern2_1.JPG) | ![Clock Pattern 2](https://www.haoranma.info/vision.github.io/assets/images/pattern2_2.JPG)
+<table>
+<tr><td><center>Clock Pattern 1</center></td><td> <center>Clock Pattern 2</center></td></tr>
+<tr><td>
+<img align="center" src="https://www.haoranma.info/vision.github.io/assets/images/pattern2_1.JPG" alt="Clock Pattern 1"/></td><td> <img align="center" src="https://www.haoranma.info/vision.github.io/assets/images/pattern2_2.JPG" alt="Clock Pattern 2"/></td></tr>
+</table>
 
 
 
@@ -71,19 +74,21 @@ After we activate the second pattern -- clock pattern. It shows the current time
 ### 3.3 Circle Pattern
 After we activate the third pattern -- circle pattern. It shows a circle starting from inner side gradually goes to outer side. The visual effects are shown below:
 
-
-<center>Circle Pattern 1</center>| <center>Circle Pattern 2</center> | <center>Circle Pattern 3</center>
---- | --- | ---
-![Circle Pattern 1](https://www.haoranma.info/vision.github.io/assets/images/pattern3_1.JPG) | ![Circle Pattern 2](https://www.haoranma.info/vision.github.io/assets/images/pattern3_2.JPG) | ![Circle Pattern 3](https://www.haoranma.info/vision.github.io/assets/images/pattern3_3.JPG)
+<table>
+<tr><td><center>Circle Pattern 1</center></td><td> <center>Circle Pattern 2</center></td><td> <center>Circle Pattern 3</center></td></tr>
+<tr><td>
+<img align="center" src="https://www.haoranma.info/vision.github.io/assets/images/pattern3_1.JPG" alt="Circle Pattern 1"/></td><td> <img align="center" src="https://www.haoranma.info/vision.github.io/assets/images/pattern3_2.JPG" alt="Circle Pattern 2"/></td><td> <img align="center" src="https://www.haoranma.info/vision.github.io/assets/images/pattern3_3.JPG" alt="Circle Pattern 3"/></td></tr>
+</table>
 
 
 ### 3.4 Shape Pattern
 After we activate the fourth pattern -- shape pattern. It shows the a complex colorful pattern designed by us using less than 10 lines of code. The visual effects are shown below:
 
-
-<center>Shape Pattern 1</center>| <center>Shape Pattern 2</center>
---- | ---
-![Shape Pattern 1](https://www.haoranma.info/vision.github.io/assets/images/pattern5_1.jpg) | ![Shape Pattern 2](https://www.haoranma.info/vision.github.io/assets/images/pattern5_2.JPG)
+<table>
+<tr><td><center>Shape Pattern 1</center></td><td> <center>Shape Pattern 2</center></td></tr>
+<tr><td>
+<img align="center" src="https://www.haoranma.info/vision.github.io/assets/images/pattern5_1.jpg" alt="Shape Pattern 1"/></td><td> <img align="center" src="https://www.haoranma.info/vision.github.io/assets/images/pattern5_2.JPG" alt="Shape Pattern 2"/></td></tr>
+</table>
 
 
 ### 3.5 Text Pattern
@@ -91,7 +96,7 @@ After we input the text we want to show into the text box and submit it, it acti
 
 <center>
 <figure>
-<figcaption align = "center"><b>Text Pattern</b></figcaption>
+<figcaption align = "center">Text Pattern</figcaption>
 <img align="center" src="https://www.haoranma.info/vision.github.io/assets/images/pattern4.jpg" alt="Text Pattern" width="500"/>
 </figure>
 </center>

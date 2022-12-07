@@ -30,6 +30,12 @@ sort: 1
 <img src="https://www.haoranma.info/vision.github.io/assets/images/Model Base.png" alt="Model Base">
 <img src="https://www.haoranma.info/vision.github.io/assets/images/Model Cover.png" alt="Model Cover">
 
+<table>
+<tr><td><center>Model Base</center></td><td> <center>Model Cover</center></td></tr>
+<tr><td>
+<img align="center" src="https://www.haoranma.info/vision.github.io/assets/images/Model Base.png" alt="Shape Pattern 1"/></td><td> <img align="center" src="https://www.haoranma.info/vision.github.io/assets/images/Model Cover.png" alt="Shape Pattern 2"/></td></tr>
+</table>
+
 ## 2 Software Code
 
 Here we show how to use our POVLib to easily build a POV Display and a web server.

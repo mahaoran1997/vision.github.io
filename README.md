@@ -24,7 +24,7 @@ In our approach, we plan to replace the old LEDs with the Neopixel RGBs to provi
 ## Source Code Repo
 
 You can find all our source code and 3D printer models [here](https://github.com/mahaoran1997/PovLib).
-A step-by-step guide to build a POV display can be found in [section 2](https://www.haoranma.info/vision.github.io/test/guide.html) of this documentation.
+A step-by-step guide to build a POV display can be found in [section 1](https://www.haoranma.info/vision.github.io/test/guide.html) of this documentation.
 
 ## References
 [1] Paul, Robinson P., et al. "Persistence of Vision control using Arduino." International Journal of Intelligent Systems and Applications (IJISA), IJISA 6.1 (2013).

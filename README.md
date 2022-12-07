@@ -18,10 +18,9 @@ However, visualizing different patterns by rotating LEDs currently requires prog
 
 ## Related Work
 
-
-
-## Challenges
-
+- Paul, Robinson P., et al. "Persistence of Vision control using Arduino." International Journal of Intelligent Systems and Applications (IJISA), IJISA 6.1 (2013).
+- Dhruv, Akshay, et al. "Wireless Remote Controlled POV Display." International Journal of Computer Applications 115.7 (2015).
+- Kolsur, Anoop, Sandeep Awale, and Nagraj Ullagaddi. "POV: Persistence of Vision."
 
 
 ## Source Code Repo

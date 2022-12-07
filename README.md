@@ -15,6 +15,12 @@ Light effect plays an important role in attracting people’s attention in many 
 
 However, visualizing different patterns by rotating LEDs currently requires programmers to take care of every low-level detail such as timing and synchronization when programming on real hardwares. For example, they need to explicitly control the on and off time for every LED light, and there could be thousands of LED lights on one display. Programs could be extremely long in such cases. POVLib -- a persistent vision display library can help users easily create beautiful patterns with only a few lines of code.
 
+## Challenges
+There are two main challenges we may encounter.
+
+Firstly, how to let our device communicate with our board? After research, we found one way is to 
+use ESP8266 NodeMCU as an Access Point, which allows users to directly connect the board via Wi-Fi, so the board does not needed to be connected with a router. Then, we can design the user interface and set up the data transmission in HTML. 
+
 ## Related Work
 The paper *Persistance of Vision Control Using Arduino* by Robinson, Ghansyam, and Vishwa introduced us a Piranha LED POV project that was controled by an Andrioid device<sup>[1]</sup>. Users could send a message of commend with their device to the microcontroller to change the display pattern. The paper accomplished a new way of interacting with the users by providing a touchscreen<sup>[2]</sup>. The Raspberry Pi took the touchpad as input and tranformed the drawing to the POV display. Debashis also built a POV display using WS2812 Neopixel and ESP8266, and users were able to control the display pattern on any device via Wi-Fi<sup>[3]</sup>. However, the weakness of each approach is noticeable like the obsolete LEDs and the complexity to design display patterns. 
 

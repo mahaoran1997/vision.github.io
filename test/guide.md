@@ -28,7 +28,7 @@ The following picture is the L298N Motor Driver Scheme, which powers the 12V mot
 
 To power and control the motor speed, we need to use the Pulse Width Modulation (PWM), a way to control analog devices with a digital output. In other words, we can output a modulating signal from a digital device (Arduino Uno) to drive an analog device (motor). After setting up the motor driver circuit, we can simply assign the Arduino output pins, and call `analogWrite`.
 
-<!-- ```C++
+```C++
 int enA = 9;
 int in1 = 8;
 int in2 = 7;
@@ -50,7 +50,7 @@ void loop(){
   digitalWrite(in1,LOW);
   digitalWrite(in2,HIGH);
 }
-``` -->
+```
 
 ### 1.3 3D Printed Models:
 - The following two models are 3D printed to contain all the required components, the original STL files can be found <a href="https://github.com/mahaoran1997/vision.github.io/tree/develop/assets/3D%20Models" target="_blank">here</a>.

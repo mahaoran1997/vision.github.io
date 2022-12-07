@@ -5,8 +5,8 @@ sort: 1
 # Step-by-step Guide
 
 
-## 1 Hardware Setup
-### 1.1 Required Components:
+## 1.1 Hardware Setup
+### 1.1.1 Required Components:
 * ESP8266 NodeMCU
 * Arduino Uno
 * L298N Motor Driver
@@ -19,7 +19,7 @@ sort: 1
 * 4mm Rigid Flange
 * Screws and Nuts
 
-### 1.2 Circuit Schematics:
+### 1.1.2 Circuit Schematics:
 The first scheme is ESP8266 circuit, which powers the WS2812 LEDs and uses WiFi to control and switch the light patterns.
 <img src="https://www.haoranma.info/vision.github.io/assets/images/NodeMCU Circuit_schem.jpg" alt="ESP8266 Circuit Scheme">
 
@@ -52,7 +52,7 @@ void loop(){
 }
 ```
 
-### 1.3 3D Printed Models:
+### 1.1.3 3D Printed Models:
 - The following two models are 3D printed to contain all the required components, the original STL files can be found <a href="https://github.com/mahaoran1997/vision.github.io/tree/develop/assets/3D%20Models" target="_blank">here</a>.
 <table>
 <tr><td><center>Model Base</center></td><td> <center>Model Cover</center></td></tr>
@@ -62,11 +62,11 @@ void loop(){
 
 
 
-## 2 Software Code
+## 1.2 Software Code
 
 Here we show how to use our POVLib to easily build a POV Display and a web server.
 
-### 2.1 Web Server
+### 1.2.1 Web Server
 
 To build a simple web server, we need to firstly import the html module of our POVLib. And then declare an object with class `TemplateHtml`. Inside the setup function, we initialize the TemplateHtml object with parameters specified by us.
 
@@ -91,7 +91,7 @@ void loop() {
 ```
 
 
-### 2.2 Create Patterns
+### 1.2.2 Create Patterns
 
 To easily create our patterns using POVLib, we need to firstly import the pov module of our POVLib. And then create an object with class `POVLib`. Inside the setup function, we call the constructor of POVLib.
 ```C++
@@ -141,7 +141,7 @@ void show_shape() {
 ```
 In the loop function, we check the value of `current_pattern`. If it is 4, then we call `show_shape` to show the pattern we create. In `show_shape`, we firstly draw the pattern. The `draw_curve` function takes four input parametes. The first two specifies the start and end interval IDs of this curve and the third parameter specifies the LED ID of the curve. The last one gives the color of this curve. Actually We can also draw dots and lines using other interfaces. After creating the pattern, we need to call the `run_loop_body` function in POVLib to let our hardwares show the pattern.
 
-## 3 Visual Effects
+## 1.3 Visual Effects
 
 We built a demo system and created five different patterns using our library to show its usability. Our demo system has a web interface, and users can select which pattern to show on our led display through buttons on the webpage. To open the webpage, users firstly need to connect to the wifi channel created by our system and goto `192.168.4.1` in your browser app. The web page is shown below and we can see five different patterns on the website. 
 
@@ -154,7 +154,7 @@ We built a demo system and created five different patterns using our library to 
 
 
 
-### 3.1 Color Pattern
+### 1.3.1 Color Pattern
 After we activate the first pattern -- color pattern which is the simplest one in this demo. It changes its color every 5 seconds. The visual effects are shown below:
 
 <table>
@@ -165,7 +165,7 @@ After we activate the first pattern -- color pattern which is the simplest one i
 
 We used long exposure camera to capture the pattern. Due to the camera sampling frequency is not high enough, though the pattern in the image is missing a corner, it actually fills all round face when we are looking at it through our eyes. This problem also arises in the rest several patterns.
 
-### 3.2 Clock Pattern
+### 1.3.2 Clock Pattern
 After we activate the second pattern -- clock pattern. It shows the current time (hour and minute). The visual effects are shown below:
 
 
@@ -178,7 +178,7 @@ After we activate the second pattern -- clock pattern. It shows the current time
 
 
 
-### 3.3 Circle Pattern
+### 1.3.3 Circle Pattern
 After we activate the third pattern -- circle pattern. It shows a circle starting from inner side gradually goes to outer side. The visual effects are shown below:
 
 <table>
@@ -188,7 +188,7 @@ After we activate the third pattern -- circle pattern. It shows a circle startin
 </table>
 
 
-### 3.4 Shape Pattern
+### 1.3.4 Shape Pattern
 After we activate the fourth pattern -- shape pattern. It shows the a complex colorful pattern designed by us using less than 10 lines of code. The visual effects are shown below:
 
 <table>
@@ -198,7 +198,7 @@ After we activate the fourth pattern -- shape pattern. It shows the a complex co
 </table>
 
 
-### 3.5 Text Pattern
+### 1.3.5 Text Pattern
 After we input the text we want to show into the text box and submit it, it activates the last pattern -- text pattern. It shows the texts specified by us. Example visual effects are shown below (we use "hello" as an example):
 
 <center>

@@ -6,7 +6,7 @@ sort: 2
 
 There are two modules in our POVLib project: POV Module and HTML Module. We actually seperate them into two libraries because they can used individually without relying on each other. The POV module is to help programmers create patterns while the HTML module is to help programmers easily build a web server. The HTML module can also be used in many other scenarios.
 
-## POV Module
+## 2.1 POV Module
 
 The POV module contains a class called `POVLib` which is the same as our project name. There are in total 10 interfaces visible to external programmers.
 
@@ -45,7 +45,7 @@ public:
   - Function to show texts. It changes LED values based on time. We need to frequently call this interface in the loop function.
 
 
-## HTML Module
+## 2.2 HTML Module
 
 The interfaces of HTML Module is simple and is already covered in the step-by-step guide. Here we just show the formal interface:
 

@@ -20,8 +20,13 @@ sort: 1
 * Screws and Nuts
 
 ### Circuit Schematics:
-### 3D Printed Models:
+<img src="/Users/yubai/Desktop/ECE202A/vision.github.io/assets/images/NodeMCU Circuit_schem.jpg" alt="ESP8266 Circuit Scheme">
 
+<img src="/Users/yubai/Desktop/ECE202A/vision.github.io/assets/images/Motor Circuit_bb.png" alt="L298N Motor Driver Scheme">
+
+### 3D Printed Models:
+<img src="/Users/yubai/Desktop/ECE202A/vision.github.io/assets/images/Model Base.png" alt="Model Base">
+<img src="/Users/yubai/Desktop/ECE202A/vision.github.io/assets/images/Model Cover.png" alt="Model Cover">
 
 ## Software Code
 

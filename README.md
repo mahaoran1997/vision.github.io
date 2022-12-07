@@ -21,6 +21,7 @@ However, visualizing different patterns by rotating LEDs currently requires prog
 - Paul, Robinson P., et al. "Persistence of Vision control using Arduino." International Journal of Intelligent Systems and Applications (IJISA), IJISA 6.1 (2013).
 - Dhruv, Akshay, et al. "Wireless Remote Controlled POV Display." International Journal of Computer Applications 115.7 (2015).
 - Kolsur, Anoop, Sandeep Awale, and Nagraj Ullagaddi. "POV: Persistence of Vision."
+- Das, Debashis. “How Not to Build a POV Display Using WS2812B Neopixel Leds and ESP8266.” How Not to Build a POV Display Using WS2812B Neopixel LEDs and ESP8266, 21 Apr. 2022, https://circuitdigest.com/microcontroller-projects/build-pov-display-using-ws2812b-neopixel-led-and-esp8266. 
 
 
 ## Source Code Repo

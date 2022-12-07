@@ -19,7 +19,7 @@ However, visualizing different patterns by rotating LEDs currently requires prog
 The paper *Persistance of Vision Control Using Arduino* by Robinson, Ghansyam, and Vishwa introduced us a Piranha LED POV project that was controled by an Andrioid device<sup>[1]</sup>. Users could send a message of commend with their device to the microcontroller to change the display pattern. The paper accomplished a new way of interacting with the users by providing a touchscreen<sup>[2]</sup>. The Raspberry Pi took the touchpad as input and tranformed the drawing to the POV display. Debashis also built a POV display using WS2812 Neopixel and ESP8266, and users were able to control the display pattern on any device via Wi-Fi<sup>[3]</sup>. However, the weakness of each approach is noticeable like the obsolete LEDs and the complexity to design display patterns. 
 
 ## Novelty & Rationale
-In our approach, we plan to replace the old LEDs with the Neopixel RGBs to provide more colors and to easily adjust the brightness. A new interaction is also accomplished, which let users to DIY the display pattern on their own devices. Moreover, we plan to create a library named POVLib to help users and programmers create remarkable patterns with only a few lines of code.  
+In our approach, we plan to replace the old LEDs with the Neopixel RGBs to provide more colors and to easily adjust the brightness. A new interaction is also accomplished, which let users to DIY the display pattern on their own devices. Moreover, we created a library named POVLib to help users and programmers create remarkable patterns with only a few lines of code.  
 
 ## Source Code Repo
 

@@ -18,8 +18,9 @@ However, visualizing different patterns by rotating LEDs currently requires prog
 ## Challenges
 There are two main challenges we may encounter.
 
-Firstly, how to let our device communicate with our board? After research, we found one way is to 
-use ESP8266 NodeMCU as an Access Point, which allows users to directly connect the board via Wi-Fi, so the board does not needed to be connected with a router. Then, we can design the user interface and set up the data transmission in HTML. 
+The first challenge is how to design an easy-to-use library interface for programmers, while still preserving flexibility. There is tradeoff between them. Clearly just providing several available patterns to programmers is the easiest way. But then there is no flexibility. And if we make it too flexible, then it has no difference between using our library and the original way to just manipulate the hardware itself.
+
+Secondly, how to let our device communicate with our board? After research, we found one way is to use ESP8266 NodeMCU as an Access Point, which allows users to directly connect the board via Wi-Fi, so the board does not needed to be connected with a router. Then, we can design the user interface and set up the data transmission in HTML.
 
 ## Related Work
 The paper *Persistance of Vision Control Using Arduino* by Robinson, Ghansyam, and Vishwa introduced us a Piranha LED POV project that was controled by an Andrioid device<sup>[1]</sup>. Users could send a message of commend with their device to the microcontroller to change the display pattern. The paper accomplished a new way of interacting with the users by providing a touchscreen<sup>[2]</sup>. The Raspberry Pi took the touchpad as input and tranformed the drawing to the POV display. Debashis also built a POV display using WS2812 Neopixel and ESP8266, and users were able to control the display pattern on any device via Wi-Fi<sup>[3]</sup>. However, the weakness of each approach is noticeable like the obsolete LEDs and the complexity to design display patterns. 

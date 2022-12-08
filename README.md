@@ -28,6 +28,9 @@ The paper *Persistance of Vision Control Using Arduino* by Robinson, Ghansyam, a
 ## Novelty & Rationale
 In our approach, we plan to replace the old LEDs with the Neopixel RGBs to provide more colors and to easily adjust the brightness. A new interaction is also accomplished, which let users to DIY the display pattern on their own devices. Moreover, we created a library named POVLib to help users and programmers create remarkable patterns with only a few lines of code.  
 
+## Discussion
+Our prototype achieves essentially all of the designing goals, but there are still some issues needed to be solved. Firstly, although we used L298N motor driver to stablize the rotational speed of the motor, the speed is still unstable. After research, unbalanced weight of the rotating PCB should be the main cause of this problem. We have come with two different solutions. The first way is to add additional weight to the PCB to balance its weight along the axis. The second one is to add an optic sensor to detect the real-time rotational speed.  
+
 ## Source Code Repo
 
 You can find all our source code and 3D printer models [here](https://github.com/mahaoran1997/PovLib).

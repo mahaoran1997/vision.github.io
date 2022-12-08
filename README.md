@@ -29,6 +29,10 @@ However, visualizing different patterns by rotating LEDs currently requires prog
 You can find all our source code and 3D printer models [here](https://github.com/mahaoran1997/PovLib).
 A step-by-step guide to build a POV display can be found in [section 1](https://www.haoranma.info/vision.github.io/test/guide.html) of this documentation.
 
+## Presentation Slides
+
+The slides can be accessed [here](https://personalmicrosoftsoftware0-my.sharepoint.com/:p:/g/personal/haoranma_personalmicrosoftsoftware_ucla_edu/EU0P1a3RJepOh-kgQOaeAxYBK1bi2-_Um_mT00RP8NDrUg?e=6cvsvQ).
+
 ## The license
 
 The theme is available as open source under the terms of the MIT License
